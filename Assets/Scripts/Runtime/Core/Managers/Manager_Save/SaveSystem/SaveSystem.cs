@@ -45,13 +45,13 @@ namespace Assets.Scripts.Runtime.Systems.SaveSystem
                 SaveState = new SaveState();
                 SaveState.SetInitialValues();
                 Save();
-
+            
             }
             else if (isExist)
             {
                 SaveState = ES3.Load("state", new SaveState());
                 MigrateToTheLatestBuildVersion();
-
+            
             }
 
             SetIsLoadFinished(true);
