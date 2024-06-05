@@ -28,7 +28,7 @@ namespace Assets.Scripts.Runtime.Core.Actors.Characters.Behaviours.CharacterMove
 
         private List<CharacterGameplay> _counterCharactersGameplay = new();
 
-        private float _tapTrashold = 0.3f;
+        // private float _tapTrashold = 0.3f;
 
         #region Init Variables Rotation
 

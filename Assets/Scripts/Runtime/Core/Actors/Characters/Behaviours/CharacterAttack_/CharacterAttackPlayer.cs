@@ -11,7 +11,7 @@ namespace Assets.Scripts.Runtime.Core.Actors.Characters.Behaviours.CharacterAtta
     public class CharacterAttackPlayer : CharacterAttackBase
     {
 
-        private float _tapTrashold = 0.1f;
+        // private float _tapTrashold = 0.1f;
 
         public override void SetAttackState(SignalCharacterAttack signalCharacterAttack)
         {
